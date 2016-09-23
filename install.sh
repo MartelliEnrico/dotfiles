@@ -18,7 +18,7 @@ brew bundle
 chsh -s $(which zsh)
 
 # Install global Composer packages
-/usr/local/bin/composer global require laravel/installer laravel/valet
+composer global require update
 
 # Install Laravel Valet
 valet install

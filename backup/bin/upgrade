@@ -1,18 +1,5 @@
 #!/bin/bash
 
-# CMD="( cd ~/.zprezto; git pull && git submodule update --init --recursive;
-# brew update; brew cask update; brew upgrade --all;
-# brew cleanup; brew cask cleanup; brew services cleanup;
-# composer self-update; composer global update )"
-
-# touch $HOME/.upgrade.log
-
-# if [ "$1" = "-b" ]; then
-# 	eval "$CMD >~/.upgrade.log 2>&1 &"
-# else
-# 	eval "$CMD | tee ~/.upgrade.log"
-# fi
-
 function _t() {
 	printf "\n\e[34m# $@\e[0m\n"
 }
@@ -31,3 +18,10 @@ brew prune
 _t "Aggiorno Composer"
 composer self-update
 composer global update
+
+_t "Backup"
+mackup backup
+pushd ~/.dotfiles
+git commit -am "Doing the backup"
+git push
+popd
