@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"DocBlockr",
+		"Git Conflict Resolver",
+		"GitGutter",
+		"Inspired GitHub Color Scheme",
+		"Kotlin",
+		"Laravel Blade Highlighter",
+		"Material Theme",
+		"Material Theme - Appbar",
+		"Package Control",
+		"PHP Companion",
+		"SideBarEnhancements"
+	]
+}

@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# CMD="( cd ~/.zprezto; git pull && git submodule update --init --recursive;
+# brew update; brew cask update; brew upgrade --all;
+# brew cleanup; brew cask cleanup; brew services cleanup;
+# composer self-update; composer global update )"
+
+# touch $HOME/.upgrade.log
+
+# if [ "$1" = "-b" ]; then
+# 	eval "$CMD >~/.upgrade.log 2>&1 &"
+# else
+# 	eval "$CMD | tee ~/.upgrade.log"
+# fi
+
+function _t() {
+	printf "\n\e[34m# $@\e[0m\n"
+}
+
+_t "Aggiorno Prezto"
+git -C ~/.zprezto pull && git -C ~/.zprezto submodule update --init --recursive
+
+_t "Aggiorno Homebrew"
+brew update
+brew upgrade --all
+brew cleanup
+brew cask cleanup
+brew services cleanup
+brew prune
+
+_t "Aggiorno Composer"
+composer self-update
+composer global update
