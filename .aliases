@@ -1,0 +1,22 @@
+#!/bin/bash
+alias l="ls -alh"
+alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome >/dev/null 2>&1"
+
+# Best alias EVAH!!!
+alias yolo="sudo"
+alias pls="sudo"
+alias stahp="kill"
+alias stfu="osascript -e 'set volume output muted true'"
+alias pumpitup="osascript -e 'set volume 10'"
+
+alias gs="git status"
+alias ga="git add"
+alias gaa="git add ."
+alias gc="git commit -m "
+alias gca="git commit -am "
+alias gp="git push github"
+alias nah="git reset --hard; git clean -df; "
+
+alias art="php artisan"
+
+alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
