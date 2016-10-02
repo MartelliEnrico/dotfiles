@@ -35,6 +35,8 @@ brew 'homebrew/php/php71', args: ['without-apache']
 brew 'homebrew/php/composer'
 
 cask 'appcleaner'
+cask 'battle-net'
+cask 'discord'
 cask 'flux'
 cask 'google-chrome'
 cask 'google-drive'
@@ -44,6 +46,7 @@ cask 'spotify'
 cask 'spotify-notifications'
 cask 'sublime-text3'
 cask 'telegram'
+cask 'utorrent'
 cask 'vlc'
 
 cask 'qlcolorcode'

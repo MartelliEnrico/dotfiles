@@ -32,4 +32,5 @@ setopt RC_EXPAND_PARAM
 test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh
 
 eval "$(thefuck --alias)"
-# eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib)"
+
+#ssh-add -A >/dev/null

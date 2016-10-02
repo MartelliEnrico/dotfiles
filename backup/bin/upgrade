@@ -18,10 +18,3 @@ brew prune
 _t "Aggiorno Composer"
 composer self-update
 composer global update
-
-_t "Backup"
-mackup backup
-pushd ~/.dotfiles
-git commit -am "Doing the backup"
-git push
-popd

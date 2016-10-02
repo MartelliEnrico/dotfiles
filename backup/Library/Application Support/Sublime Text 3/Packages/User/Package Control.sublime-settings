@@ -7,6 +7,7 @@
 	[
 		"BracketHighlighter",
 		"DocBlockr",
+		"Emmet",
 		"Git Conflict Resolver",
 		"GitGutter",
 		"Inspired GitHub Color Scheme",
@@ -16,6 +17,7 @@
 		"Material Theme - Appbar",
 		"Package Control",
 		"PHP Companion",
+		"Sass",
 		"SideBarEnhancements"
 	]
 }
