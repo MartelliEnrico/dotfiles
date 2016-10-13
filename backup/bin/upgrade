@@ -9,7 +9,7 @@ git -C ~/.zprezto pull && git -C ~/.zprezto submodule update --init --recursive
 
 _t "Aggiorno Homebrew"
 brew update
-brew upgrade --all
+brew upgrade
 brew cleanup
 brew cask cleanup
 brew services cleanup
