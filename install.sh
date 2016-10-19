@@ -20,6 +20,9 @@ chsh -s $(which zsh)
 # Install global Composer packages
 composer global require update
 
+#Install global npm packages
+npm install -g bower firebase-tools generator-polymer gulp polymer-cli yarn yo
+
 # Install Laravel Valet
 valet install
 
