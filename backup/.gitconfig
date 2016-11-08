@@ -18,16 +18,7 @@
 	s = status
 	l = log
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-	quick = "!f() { \
-		git checkout -b $1 \
-		git commit -am ${2:-"Quick commit"} \
-		git push -u \
-		}; f"
 	patch = --no-pager diff --no-color
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	required = true
 [diff]
 	compactionHeuristic = true
 [color]

@@ -84,6 +84,12 @@ fi
 TMPPREFIX="${TMPDIR%/}/zsh"
 
 #
+# Maven
+#
+
+export MAVEN_OPTS="-Xms256m -Xmx1024m"
+
+#
 # Homebrew
 #
 
