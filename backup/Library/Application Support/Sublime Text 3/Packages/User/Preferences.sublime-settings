@@ -24,13 +24,14 @@
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,
 	"material_theme_accent_blue": true,
+	"material_theme_accent_scrollbars": true,
 	"material_theme_appbar_blue": true,
+	"material_theme_bright_scrollbars": true,
 	"material_theme_contrast_mode": true,
 	"material_theme_panel_separator": true,
 	"material_theme_small_tab": true,
 	"material_theme_tree_headings": true,
-	"material_theme_bright_scrollbars": true,
-	"material_theme_accent_scrollbars": true,
 	"overlay_scroll_bars": "enabled",
-	"theme": "Material-Theme-Lighter.sublime-theme"
+	"theme": "Material-Theme-Lighter.sublime-theme",
+	"rulers": [80]
 }

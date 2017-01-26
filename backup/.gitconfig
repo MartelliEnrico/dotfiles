@@ -7,7 +7,7 @@
 [core]
 	editor = vim
 	excludesfile = ~/.gitignore
-	pager = diff-highlight | diff-so-fancy | less --tabs=4 -RFX
+	pager = diff-highlight
 [credential]
 	helper = osxkeychain
 [filter "hawser"]
@@ -24,7 +24,6 @@
 [color]
 	ui = always
 [color "diff"]
-	meta = yellow bold
 	commit = green bold
 	frag = magenta bold
 	old = red bold

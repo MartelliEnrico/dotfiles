@@ -56,5 +56,6 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 mas 'Magnet', id: 441258766
+mas 'MiniPlay', id: 936243210
 mas 'The Unarchiver', id: 425424353
 mas 'Xcode', id: 497799835

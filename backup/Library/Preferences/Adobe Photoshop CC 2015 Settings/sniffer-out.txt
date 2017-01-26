@@ -1,14 +1,14 @@
 stdout:
 # Photoshop Version: 2015.1 20151114.r.301 2015/11/14:23:59:59 CL 1053036
 Tester="Photoshop"
-snifferStart="2016-09-22_09:17:47"
+snifferStart="2017-01-16_14:49:54"
 AIFCoreInitialized=1
 AIFOGLInitialized=1
 OGLContextCreated=1
-# 00000.2016.09.22_09:17:47.536(+00.000)[tid=0x7fffc9afa3c0] macNumRenderers=2, aifNumDevices=1
-# 00001.2016.09.22_09:17:47.536(+00.000)[tid=0x7fffc9afa3c0] aifDeviceIndex=0, macRendererIndex=0
-# 00002.2016.09.22_09:17:47.536(+00.000)[tid=0x7fffc9afa3c0] macDisplayID=4280640, macDisplayMask=1, rendererDisplayMask=1f, intersection=1
-# 00003.2016.09.22_09:17:47.539(+00.003)[tid=0x7fffc9afa3c0] found 1 GPUs
+# 00000.2017.01.16_14:49:54.166(+00.000)[tid=0x7fff9c1ce3c0] macNumRenderers=2, aifNumDevices=1
+# 00001.2017.01.16_14:49:54.166(+00.000)[tid=0x7fff9c1ce3c0] aifDeviceIndex=0, macRendererIndex=0
+# 00002.2017.01.16_14:49:54.166(+00.000)[tid=0x7fff9c1ce3c0] macDisplayID=4280640, macDisplayMask=1, rendererDisplayMask=1f, intersection=1
+# 00003.2017.01.16_14:49:54.169(+00.003)[tid=0x7fff9c1ce3c0] found 1 GPUs
 NumGLGPUs=1
 glgpu[0].GLVersion="2.1"
 glgpu[0].IsIntegratedGLGPU=0
@@ -65,85 +65,85 @@ gputag.AIF::OGL::GL_ARB_VERTEX_BUFFER_OBJECT=197
 glgpu[0].extension[AIF::OGL::GL_ARB_VERTEX_BUFFER_OBJECT]=1
 gputag.AIF::OGL::GL_ARB_SHADER_TEXTURE_LOD=146
 glgpu[0].extension[AIF::OGL::GL_ARB_SHADER_TEXTURE_LOD]=1
-# 00004.2016.09.22_09:17:47.548(+00.009)[tid=0x7fffc9afa3c0] DoRunAIFOCLInitialize: AIF::OCL::Library::initialize();
+# 00004.2017.01.16_14:49:54.181(+00.012)[tid=0x7fff9c1ce3c0] DoRunAIFOCLInitialize: AIF::OCL::Library::initialize();
 NumCLGPUs=1
-clgpu[0].CLPlatformVersion="1.2 (Aug 10 2016 17:16:39)"
+clgpu[0].CLPlatformVersion="1.2 (Dec  9 2016 21:36:44)"
 clgpu[0].CLDeviceVersion="1.2 "
 clgpu[0].IsIntegratedCLGPU=1
 clgpu[0].CLMemoryMB=1536
 clgpu[0].CLName="Iris Pro"
 clgpu[0].CLVendor="Intel"
 clgpu[0].CLVendorID=16925952
-clgpu[0].CLDriverVersion="1.2(Aug 29 2016 18:35:07)"
+clgpu[0].CLDriverVersion="1.2(Dec  9 2016 21:49:33)"
 clgpu[0].CUDASupported=0
-# 00005.2016.09.22_09:17:47.549(+00.001)[tid=0x7fffc9afa3c0] BEGIN GPUSnifferTester::DoRunCLBandwidth
-# 00006.2016.09.22_09:17:47.549(+00.000)[tid=0x7fffc9afa3c0] BEGIN GPUImplHardware::DoGetCLBandwidth
-# 00007.2016.09.22_09:17:47.549(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::DoGetCLBandwidth: AIF::OCL::Context context(properties, *iDev);
-# 00008.2016.09.22_09:17:47.551(+00.002)[tid=0x7fffc9afa3c0] GPUImplHardware::DoGetCLBandwidth: AIF::OCL::CommandQueue cq(context, *iDev, false, true);
-# 00009.2016.09.22_09:17:47.557(+00.006)[tid=0x7fffc9afa3c0] BEGIN GPUImplHardware::checkBandwidthCL
-# 00010.2016.09.22_09:17:47.557(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: clCreateBuffer d_idata nbytes=16777216
-# 00011.2016.09.22_09:17:47.557(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: clCreateBuffer d_odata nbytes=16777216
-# 00012.2016.09.22_09:17:47.557(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: clFinish
-# 00013.2016.09.22_09:17:47.557(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: copy 100 iterations
-# 00014.2016.09.22_09:17:47.557(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: 0 of 100, totalSeconds=0
-# 00015.2016.09.22_09:17:47.571(+00.014)[tid=0x7fffc9afa3c0] GPUImplHardware::timeBandwidthCL: totalSeconds=0.00836856
-# 00016.2016.09.22_09:17:47.571(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: seconds=0.00836856
-# 00017.2016.09.22_09:17:47.571(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: totalSeconds=0.00836856, BW=4.00958e+10, maxBW=4.00958e+10
-# 00018.2016.09.22_09:17:47.571(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: 10 of 100, totalSeconds=0.00836856
-# 00019.2016.09.22_09:17:47.580(+00.009)[tid=0x7fffc9afa3c0] GPUImplHardware::timeBandwidthCL: totalSeconds=0.00822672
-# 00020.2016.09.22_09:17:47.580(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: seconds=0.00822672
-# 00021.2016.09.22_09:17:47.580(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: totalSeconds=0.0165953, BW=4.07871e+10, maxBW=4.07871e+10
-# 00022.2016.09.22_09:17:47.580(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: 20 of 100, totalSeconds=0.0165953
-# 00023.2016.09.22_09:17:47.589(+00.009)[tid=0x7fffc9afa3c0] GPUImplHardware::timeBandwidthCL: totalSeconds=0.00816208
-# 00024.2016.09.22_09:17:47.589(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: seconds=0.00816208
-# 00025.2016.09.22_09:17:47.589(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: totalSeconds=0.0247574, BW=4.11101e+10, maxBW=4.11101e+10
-# 00026.2016.09.22_09:17:47.589(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: 30 of 100, totalSeconds=0.0247574
-# 00027.2016.09.22_09:17:47.598(+00.009)[tid=0x7fffc9afa3c0] GPUImplHardware::timeBandwidthCL: totalSeconds=0.00818408
-# 00028.2016.09.22_09:17:47.598(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: seconds=0.00818408
-# 00029.2016.09.22_09:17:47.598(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: totalSeconds=0.0329414, BW=4.09996e+10, maxBW=4.11101e+10
-# 00030.2016.09.22_09:17:47.598(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: 40 of 100, totalSeconds=0.0329414
-# 00031.2016.09.22_09:17:47.607(+00.009)[tid=0x7fffc9afa3c0] GPUImplHardware::timeBandwidthCL: totalSeconds=0.00824408
-# 00032.2016.09.22_09:17:47.607(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: seconds=0.00824408
-# 00033.2016.09.22_09:17:47.607(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: totalSeconds=0.0411855, BW=4.07012e+10, maxBW=4.11101e+10
-# 00034.2016.09.22_09:17:47.607(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: 50 of 100, totalSeconds=0.0411855
-# 00035.2016.09.22_09:17:47.616(+00.009)[tid=0x7fffc9afa3c0] GPUImplHardware::timeBandwidthCL: totalSeconds=0.00820624
-# 00036.2016.09.22_09:17:47.616(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: seconds=0.00820624
-# 00037.2016.09.22_09:17:47.616(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: totalSeconds=0.0493918, BW=4.08889e+10, maxBW=4.11101e+10
-# 00038.2016.09.22_09:17:47.616(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: 60 of 100, totalSeconds=0.0493918
-# 00039.2016.09.22_09:17:47.625(+00.009)[tid=0x7fffc9afa3c0] GPUImplHardware::timeBandwidthCL: totalSeconds=0.00821136
-# 00040.2016.09.22_09:17:47.625(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: seconds=0.00821136
-# 00041.2016.09.22_09:17:47.625(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: totalSeconds=0.0576031, BW=4.08634e+10, maxBW=4.11101e+10
-# 00042.2016.09.22_09:17:47.625(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: 70 of 100, totalSeconds=0.0576031
-# 00043.2016.09.22_09:17:47.634(+00.009)[tid=0x7fffc9afa3c0] GPUImplHardware::timeBandwidthCL: totalSeconds=0.008114
-# 00044.2016.09.22_09:17:47.634(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: seconds=0.008114
-# 00045.2016.09.22_09:17:47.634(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: totalSeconds=0.0657171, BW=4.13537e+10, maxBW=4.13537e+10
-# 00046.2016.09.22_09:17:47.634(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: 80 of 100, totalSeconds=0.0657171
-# 00047.2016.09.22_09:17:47.642(+00.008)[tid=0x7fffc9afa3c0] GPUImplHardware::timeBandwidthCL: totalSeconds=0.00767616
-# 00048.2016.09.22_09:17:47.642(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: seconds=0.00767616
-# 00049.2016.09.22_09:17:47.642(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: totalSeconds=0.0733933, BW=4.37125e+10, maxBW=4.37125e+10
-# 00050.2016.09.22_09:17:47.642(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: 90 of 100, totalSeconds=0.0733933
-# 00051.2016.09.22_09:17:47.650(+00.008)[tid=0x7fffc9afa3c0] GPUImplHardware::timeBandwidthCL: totalSeconds=0.007698
-# 00052.2016.09.22_09:17:47.650(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: seconds=0.007698
-# 00053.2016.09.22_09:17:47.650(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: totalSeconds=0.0810913, BW=4.35885e+10, maxBW=4.37125e+10
-# 00054.2016.09.22_09:17:47.650(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: clFinish
-# 00055.2016.09.22_09:17:47.650(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: releasing
-# 00056.2016.09.22_09:17:47.653(+00.003)[tid=0x7fffc9afa3c0] GPUImplHardware::checkBandwidthCL: result=4.37125e+10
-# 00057.2016.09.22_09:17:47.653(+00.000)[tid=0x7fffc9afa3c0] END GPUImplHardware::checkBandwidthCL, duration=0.0960002
-# 00058.2016.09.22_09:17:47.653(+00.000)[tid=0x7fffc9afa3c0] bytesPerSecond=4.37125e+10
-# 00059.2016.09.22_09:17:47.653(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::DoGetCLBandwidth: result=4.37125e+10
-# 00060.2016.09.22_09:17:47.653(+00.000)[tid=0x7fffc9afa3c0] END GPUImplHardware::DoGetCLBandwidth, duration=0.104
-clgpu[0].CLBandwidth=4.37125e+10
-# 00061.2016.09.22_09:17:47.653(+00.000)[tid=0x7fffc9afa3c0] END GPUSnifferTester::DoRunCLBandwidth, duration=0.104
-# 00062.2016.09.22_09:17:47.653(+00.000)[tid=0x7fffc9afa3c0] BEGIN GPUImplHardware::DoGetCLCompute
-# 00063.2016.09.22_09:17:47.653(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::DoGetCLCompute: AIF::OCL::Context context(properties, *iDev);
-# 00064.2016.09.22_09:17:47.655(+00.002)[tid=0x7fffc9afa3c0] GPUImplHardware::DoGetCLCompute: AIF::OCL::CommandQueue cq(context, *iDev, false, true);
-# 00065.2016.09.22_09:17:47.658(+00.003)[tid=0x7fffc9afa3c0] BEGIN GPUImplHardware::MeasureCLCompute
-# 00066.2016.09.22_09:17:48.021(+00.363)[tid=0x7fffc9afa3c0] GPUImplHardware::MeasureCLCompute: clFinish
-# 00067.2016.09.22_09:17:48.021(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::MeasureCLCompute: result=0.038989
-# 00068.2016.09.22_09:17:48.021(+00.000)[tid=0x7fffc9afa3c0] END GPUImplHardware::MeasureCLCompute, duration=0.363
-# 00069.2016.09.22_09:17:48.021(+00.000)[tid=0x7fffc9afa3c0] timeForKernelExecution=205.186
-# 00070.2016.09.22_09:17:48.021(+00.000)[tid=0x7fffc9afa3c0] GPUImplHardware::DoGetCLCompute: result=205.186
-# 00071.2016.09.22_09:17:48.021(+00.000)[tid=0x7fffc9afa3c0] END GPUImplHardware::DoGetCLCompute, duration=0.368
-clgpu[0].CLCompute=205.186
-snifferEnd="2016-09-22_09:17:48"
+# 00005.2017.01.16_14:49:54.182(+00.001)[tid=0x7fff9c1ce3c0] BEGIN GPUSnifferTester::DoRunCLBandwidth
+# 00006.2017.01.16_14:49:54.182(+00.000)[tid=0x7fff9c1ce3c0] BEGIN GPUImplHardware::DoGetCLBandwidth
+# 00007.2017.01.16_14:49:54.182(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::DoGetCLBandwidth: AIF::OCL::Context context(properties, *iDev);
+# 00008.2017.01.16_14:49:54.184(+00.002)[tid=0x7fff9c1ce3c0] GPUImplHardware::DoGetCLBandwidth: AIF::OCL::CommandQueue cq(context, *iDev, false, true);
+# 00009.2017.01.16_14:49:54.189(+00.005)[tid=0x7fff9c1ce3c0] BEGIN GPUImplHardware::checkBandwidthCL
+# 00010.2017.01.16_14:49:54.189(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: clCreateBuffer d_idata nbytes=16777216
+# 00011.2017.01.16_14:49:54.189(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: clCreateBuffer d_odata nbytes=16777216
+# 00012.2017.01.16_14:49:54.189(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: clFinish
+# 00013.2017.01.16_14:49:54.189(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: copy 100 iterations
+# 00014.2017.01.16_14:49:54.189(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: 0 of 100, totalSeconds=0
+# 00015.2017.01.16_14:49:54.203(+00.014)[tid=0x7fff9c1ce3c0] GPUImplHardware::timeBandwidthCL: totalSeconds=0.00820712
+# 00016.2017.01.16_14:49:54.203(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: seconds=0.00820712
+# 00017.2017.01.16_14:49:54.203(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: totalSeconds=0.00820712, BW=4.08845e+10, maxBW=4.08845e+10
+# 00018.2017.01.16_14:49:54.203(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: 10 of 100, totalSeconds=0.00820712
+# 00019.2017.01.16_14:49:54.212(+00.009)[tid=0x7fff9c1ce3c0] GPUImplHardware::timeBandwidthCL: totalSeconds=0.00823936
+# 00020.2017.01.16_14:49:54.212(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: seconds=0.00823936
+# 00021.2017.01.16_14:49:54.212(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: totalSeconds=0.0164465, BW=4.07246e+10, maxBW=4.08845e+10
+# 00022.2017.01.16_14:49:54.212(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: 20 of 100, totalSeconds=0.0164465
+# 00023.2017.01.16_14:49:54.221(+00.009)[tid=0x7fff9c1ce3c0] GPUImplHardware::timeBandwidthCL: totalSeconds=0.0082036
+# 00024.2017.01.16_14:49:54.221(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: seconds=0.0082036
+# 00025.2017.01.16_14:49:54.221(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: totalSeconds=0.0246501, BW=4.09021e+10, maxBW=4.09021e+10
+# 00026.2017.01.16_14:49:54.221(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: 30 of 100, totalSeconds=0.0246501
+# 00027.2017.01.16_14:49:54.229(+00.008)[tid=0x7fff9c1ce3c0] GPUImplHardware::timeBandwidthCL: totalSeconds=0.00815904
+# 00028.2017.01.16_14:49:54.229(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: seconds=0.00815904
+# 00029.2017.01.16_14:49:54.229(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: totalSeconds=0.0328091, BW=4.11255e+10, maxBW=4.11255e+10
+# 00030.2017.01.16_14:49:54.230(+00.001)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: 40 of 100, totalSeconds=0.0328091
+# 00031.2017.01.16_14:49:54.238(+00.008)[tid=0x7fff9c1ce3c0] GPUImplHardware::timeBandwidthCL: totalSeconds=0.00821016
+# 00032.2017.01.16_14:49:54.238(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: seconds=0.00821016
+# 00033.2017.01.16_14:49:54.238(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: totalSeconds=0.0410193, BW=4.08694e+10, maxBW=4.11255e+10
+# 00034.2017.01.16_14:49:54.238(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: 50 of 100, totalSeconds=0.0410193
+# 00035.2017.01.16_14:49:54.247(+00.009)[tid=0x7fff9c1ce3c0] GPUImplHardware::timeBandwidthCL: totalSeconds=0.00818824
+# 00036.2017.01.16_14:49:54.247(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: seconds=0.00818824
+# 00037.2017.01.16_14:49:54.247(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: totalSeconds=0.0492075, BW=4.09788e+10, maxBW=4.11255e+10
+# 00038.2017.01.16_14:49:54.247(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: 60 of 100, totalSeconds=0.0492075
+# 00039.2017.01.16_14:49:54.256(+00.009)[tid=0x7fff9c1ce3c0] GPUImplHardware::timeBandwidthCL: totalSeconds=0.00759592
+# 00040.2017.01.16_14:49:54.256(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: seconds=0.00759592
+# 00041.2017.01.16_14:49:54.256(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: totalSeconds=0.0568034, BW=4.41743e+10, maxBW=4.41743e+10
+# 00042.2017.01.16_14:49:54.256(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: 70 of 100, totalSeconds=0.0568034
+# 00043.2017.01.16_14:49:54.264(+00.008)[tid=0x7fff9c1ce3c0] GPUImplHardware::timeBandwidthCL: totalSeconds=0.00774032
+# 00044.2017.01.16_14:49:54.264(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: seconds=0.00774032
+# 00045.2017.01.16_14:49:54.264(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: totalSeconds=0.0645438, BW=4.33502e+10, maxBW=4.41743e+10
+# 00046.2017.01.16_14:49:54.264(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: 80 of 100, totalSeconds=0.0645438
+# 00047.2017.01.16_14:49:54.273(+00.009)[tid=0x7fff9c1ce3c0] GPUImplHardware::timeBandwidthCL: totalSeconds=0.0076832
+# 00048.2017.01.16_14:49:54.273(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: seconds=0.0076832
+# 00049.2017.01.16_14:49:54.273(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: totalSeconds=0.072227, BW=4.36725e+10, maxBW=4.41743e+10
+# 00050.2017.01.16_14:49:54.273(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: 90 of 100, totalSeconds=0.072227
+# 00051.2017.01.16_14:49:54.281(+00.008)[tid=0x7fff9c1ce3c0] GPUImplHardware::timeBandwidthCL: totalSeconds=0.0076432
+# 00052.2017.01.16_14:49:54.281(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: seconds=0.0076432
+# 00053.2017.01.16_14:49:54.281(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: totalSeconds=0.0798702, BW=4.3901e+10, maxBW=4.41743e+10
+# 00054.2017.01.16_14:49:54.281(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: clFinish
+# 00055.2017.01.16_14:49:54.281(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: releasing
+# 00056.2017.01.16_14:49:54.284(+00.003)[tid=0x7fff9c1ce3c0] GPUImplHardware::checkBandwidthCL: result=4.41743e+10
+# 00057.2017.01.16_14:49:54.284(+00.000)[tid=0x7fff9c1ce3c0] END GPUImplHardware::checkBandwidthCL, duration=0.095
+# 00058.2017.01.16_14:49:54.284(+00.000)[tid=0x7fff9c1ce3c0] bytesPerSecond=4.41743e+10
+# 00059.2017.01.16_14:49:54.284(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::DoGetCLBandwidth: result=4.41743e+10
+# 00060.2017.01.16_14:49:54.284(+00.000)[tid=0x7fff9c1ce3c0] END GPUImplHardware::DoGetCLBandwidth, duration=0.102
+clgpu[0].CLBandwidth=4.41743e+10
+# 00061.2017.01.16_14:49:54.284(+00.000)[tid=0x7fff9c1ce3c0] END GPUSnifferTester::DoRunCLBandwidth, duration=0.102
+# 00062.2017.01.16_14:49:54.284(+00.000)[tid=0x7fff9c1ce3c0] BEGIN GPUImplHardware::DoGetCLCompute
+# 00063.2017.01.16_14:49:54.284(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::DoGetCLCompute: AIF::OCL::Context context(properties, *iDev);
+# 00064.2017.01.16_14:49:54.285(+00.001)[tid=0x7fff9c1ce3c0] GPUImplHardware::DoGetCLCompute: AIF::OCL::CommandQueue cq(context, *iDev, false, true);
+# 00065.2017.01.16_14:49:54.288(+00.003)[tid=0x7fff9c1ce3c0] BEGIN GPUImplHardware::MeasureCLCompute
+# 00066.2017.01.16_14:49:54.652(+00.364)[tid=0x7fff9c1ce3c0] GPUImplHardware::MeasureCLCompute: clFinish
+# 00067.2017.01.16_14:49:54.652(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::MeasureCLCompute: result=0.0361834
+# 00068.2017.01.16_14:49:54.652(+00.000)[tid=0x7fff9c1ce3c0] END GPUImplHardware::MeasureCLCompute, duration=0.364
+# 00069.2017.01.16_14:49:54.652(+00.000)[tid=0x7fff9c1ce3c0] timeForKernelExecution=221.096
+# 00070.2017.01.16_14:49:54.652(+00.000)[tid=0x7fff9c1ce3c0] GPUImplHardware::DoGetCLCompute: result=221.096
+# 00071.2017.01.16_14:49:54.652(+00.000)[tid=0x7fff9c1ce3c0] END GPUImplHardware::DoGetCLCompute, duration=0.368
+clgpu[0].CLCompute=221.096
+snifferEnd="2017-01-16_14:49:54"
 stderr:

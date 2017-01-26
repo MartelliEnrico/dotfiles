@@ -10,7 +10,9 @@
 		"Emmet",
 		"Git Conflict Resolver",
 		"GitGutter",
+		"HexViewer",
 		"Inspired GitHub Color Scheme",
+		"Jai",
 		"Kotlin",
 		"Laravel Blade Highlighter",
 		"Material Theme",
@@ -18,6 +20,7 @@
 		"Package Control",
 		"PHP Companion",
 		"Sass",
-		"SideBarEnhancements"
+		"SideBarEnhancements",
+		"SublimeAStyleFormatter"
 	]
 }
