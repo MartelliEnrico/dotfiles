@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<prop.map version='4'>
+<prop.list>
+<prop.pair>
+<key>MainWndPos</key>
+<prop.list>
+<prop.pair>
+<key>CurrState</key>
+<array>
+<array.type><int type='signed' size='32'/></array.type>
+<int type='signed' size='32'>-1</int>
+<int type='signed' size='32'>23</int>
+<int type='signed' size='32'>1440</int>
+<int type='signed' size='32'>873</int>
+</array>
+</prop.pair>
+<prop.pair>
+<key>IdealState</key>
+<array>
+<array.type><int type='signed' size='32'/></array.type>
+<int type='signed' size='32'>23</int>
+<int type='signed' size='32'>0</int>
+<int type='signed' size='32'>896</int>
+<int type='signed' size='32'>1440</int>
+</array>
+</prop.pair>
+</prop.list>
+</prop.pair>
+</prop.list>
+</prop.map>

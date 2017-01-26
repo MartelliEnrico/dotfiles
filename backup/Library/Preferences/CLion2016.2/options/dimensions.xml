@@ -1,0 +1,13 @@
+<application>
+  <component name="DimensionService">
+    <location key="SettingsEditor.0.0.1440.900" x="251" y="70" />
+    <location key="WELCOME_SCREEN.0.0.1440.900" x="718" y="230" />
+    <location key="FileChooserDialogImpl.0.0.1440.900" x="508" y="128" />
+    <location key="GitCloneDialog.0.0.1440.900" x="387" y="297" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1440.900" x="438" y="271" />
+    <location key="#com.intellij.fileTypes.FileTypeChooser.0.0.1440.900" x="457" y="248" />
+    <location key="#Browse_Repositories.0.0.1440.900" x="308" y="42" />
+    <location key="#Plugins.0.0.1440.900" x="320" y="45" />
+    <size key="NewCMakeProjectWizard.0.0.1440.900" width="500" height="200" />
+  </component>
+</application>

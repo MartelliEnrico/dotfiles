@@ -1,0 +1,21 @@
+<application>
+  <component name="PostfixTemplatesSettings">
+    <option name="langDisabledTemplates">
+      <disabled-postfix-templates lang="Python">
+        <value>
+          <set>
+            <option value=".if" />
+            <option value=".ifn" />
+            <option value=".ifnn" />
+            <option value=".main" />
+            <option value=".not" />
+            <option value=".par" />
+            <option value=".print" />
+            <option value=".return" />
+            <option value=".while" />
+          </set>
+        </value>
+      </disabled-postfix-templates>
+    </option>
+  </component>
+</application>

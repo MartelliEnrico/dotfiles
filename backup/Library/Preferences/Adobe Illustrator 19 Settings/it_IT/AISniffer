@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AISnifferLog>
+	<OGLVersion>4.1 INTEL-10.6.31</OGLVersion>
+	<OGLExtensions/>
+	<NumDisplays>1</NumDisplays>
+	<NumDrivers>1</NumDrivers>
+	<Vendor>Intel Inc.</Vendor>
+	<VendorID>0</VendorID>
+	<Driver>
+		<Name>Intel Iris Pro OpenGL Engine</Name>
+		<Caption>Intel Iris Pro OpenGL Engine</Caption>
+		<InstalledDisplayDrivers/>
+		<VideoModeDescription/>
+		<DriverVersion/>
+		<DriverDate/>
+		<AdapterRAM>1536</AdapterRAM>
+	</Driver>
+	<MaxNativeInstr>0</MaxNativeInstr>
+	<MaxNativeALUInstr>0</MaxNativeALUInstr>
+	<MaxNativeTexInstr>0</MaxNativeTexInstr>
+	<MaxTempRegisters>0</MaxTempRegisters>
+	<TexUnits>16</TexUnits>
+	<EnableGPU>true</EnableGPU>
+</AISnifferLog>

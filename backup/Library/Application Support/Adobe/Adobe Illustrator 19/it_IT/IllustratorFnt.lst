@@ -1,0 +1,225 @@
+%!Adobe-FontList 1.16
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeArabic-Regular
+FamilyName:Adobe Arabic
+StyleName:Regular
+MenuName:Adobe Arabic
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Adobe Arabic
+FamilyNameNative:
+StyleNameNative:Regular
+FullNameNative:
+WritingScript:Arabic
+OutlineFileName:\AdobeArabic-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:275252
+FileModTime:1434539064
+DesignSize:110
+NameArray:0,Mac,4,Adobe Arabic
+NameArray:0,Win,1,Adobe Arabic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:AdobeMingStd-Light
+FamilyName:Adobe Ming Std
+StyleName:L
+MenuName:Adobe Ming Std L
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Adobe Ming Std L
+FamilyNameNative:Adobe 明體 Std
+StyleNameNative:L
+FullNameNative:Adobe 明體 Std L
+WritingScript:TraditionalChinese
+OutlineFileName:\AdobeMingStd-Light.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:10174084
+FileModTime:1434539064
+NameArray:0,Mac,4,Adobe Ming Std L
+NameArray:2,Mac,4,Adobe 明體 Std L
+NameArray:2,Win,1,Adobe 明體 Std L
+NameArray:2,Win,16,Adobe 明體 Std
+NameArray:0,Win,1,Adobe Ming Std L
+NameArray:0,Win,16,Adobe Ming Std
+NameArray:2,Win,1,Adobe 明體 Std L
+NameArray:2,Win,16,Adobe 明體 Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:AdobeMyungjoStd-Medium
+FamilyName:Adobe Myungjo Std
+StyleName:M
+MenuName:Adobe Myungjo Std M
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Adobe Myungjo Std M
+FamilyNameNative:Adobe 명조 Std
+StyleNameNative:M
+FullNameNative:Adobe 명조 Std M
+WritingScript:Korean
+OutlineFileName:\AdobeMyungjoStd-Medium.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:4103504
+FileModTime:1434539064
+NameArray:0,Mac,4,Adobe Myungjo Std M
+NameArray:3,Mac,4,Adobe 명조 Std M
+NameArray:0,Win,1,Adobe Myungjo Std M
+NameArray:0,Win,16,Adobe Myungjo Std
+NameArray:3,Win,1,Adobe 명조 Std M
+NameArray:3,Win,16,Adobe 명조 Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeSansMM
+FamilyName:Adobe Sans MM
+StyleName:Regular
+MenuName:AdobeSanMM
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Adobe Sans MM
+WritingScript:Roman
+OutlineFileName:\AdobeSanMM
+DataFormat:POSTResource
+MMAxisName:Weight
+MMAxisName:Width
+UsesStandardEncoding:yes
+isCFF:no
+FileLength:82118
+FileModTime:1434539064
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:AdobeSongStd-Light
+FamilyName:Adobe Song Std
+StyleName:L
+MenuName:Adobe Song Std L
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Adobe Song Std L
+FamilyNameNative:Adobe 宋体 Std
+StyleNameNative:L
+FullNameNative:Adobe 宋体 Std L
+WritingScript:SimplifiedChinese
+OutlineFileName:\AdobeSongStd-Light.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:15589544
+FileModTime:1434539065
+NameArray:0,Mac,4,Adobe Song Std L
+NameArray:25,Mac,4,Adobe 宋体 Std L
+NameArray:0,Win,1,Adobe Song Std L
+NameArray:0,Win,16,Adobe Song Std
+NameArray:25,Win,1,Adobe 宋体 Std L
+NameArray:25,Win,16,Adobe 宋体 Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:KozGoPr6N-Regular
+FamilyName:Kozuka Gothic Pr6N
+StyleName:R
+MenuName:Kozuka Gothic Pr6N R
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Kozuka Gothic Pr6N R
+FamilyNameNative:小塚ゴシック Pr6N
+StyleNameNative:R
+FullNameNative:小塚ゴシック Pr6N R
+WritingScript:Japanese
+OutlineFileName:\KozGoPr6N-Regular.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:5434416
+FileModTime:1434539065
+NameArray:0,Mac,4,Kozuka Gothic Pr6N R
+NameArray:1,Mac,4,小塚ゴシック Pr6N R
+NameArray:0,Win,1,Kozuka Gothic Pr6N R
+NameArray:0,Win,16,Kozuka Gothic Pr6N
+NameArray:1,Win,1,小塚ゴシック Pr6N R
+NameArray:1,Win,16,小塚ゴシック Pr6N
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadHebrew-Regular
+FamilyName:Myriad Hebrew
+StyleName:Regular
+MenuName:Myriad Hebrew
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Myriad Hebrew
+FamilyNameNative:Myriad עברית
+StyleNameNative:Regular
+FullNameNative:Myriad עברית Regular
+WritingScript:Hebrew
+OutlineFileName:\MyriadHebrew-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:80464
+FileModTime:1434539065
+DesignSize:120
+NameArray:0,Mac,18,Myriad Hebrew Regular
+NameArray:0,Mac,4,Myriad Hebrew
+NameArray:0,Win,1,Myriad Hebrew
+NameArray:5,Win,1,Myriad עברית
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-Regular
+FamilyName:Myriad Pro
+StyleName:Regular
+MenuName:Myriad Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Myriad Pro
+WritingScript:Roman
+OutlineFileName:\MyriadPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:97072
+FileModTime:1434539065
+DesignSize:110
+NameArray:0,Mac,4,Myriad Pro
+NameArray:0,Win,1,Myriad Pro
+%EndFont
+
